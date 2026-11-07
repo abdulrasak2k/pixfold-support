@@ -16,9 +16,11 @@ Re-encoding through the browser’s canvas removes source EXIF and GPS metadata.
 
 Your colour theme preference is saved locally on this device. It is not transmitted.
 
-## Data we collect
+## Data handled locally
 
-None.
+PixFold handles images you choose and, for the right-click feature, the selected image URL. These correspond to website content and the selected resource URL (disclosed as web history in the store). This handling is limited to image editing and importing; PixFold does not monitor your browsing history. We do not receive or collect these images or URLs on our servers.
+
+PixFold follows the Chrome Web Store User Data Policy, including its Limited Use requirements: this data is used only for the image-editing features you request, never for advertising, sale, unrelated purposes, creditworthiness or lending.
 
 - No analytics, telemetry or crash reporting
 - No cookies, accounts or identifiers
