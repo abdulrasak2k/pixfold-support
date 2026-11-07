@@ -32,7 +32,7 @@ PixFold follows the Chrome Web Store User Data Policy, including its Limited Use
 | Permission | Why it is needed |
 |---|---|
 | `contextMenus` | Adds the right-click entry "Compress this image with PixFold" |
-| `storage` | Passes the address of a right-clicked image to the editor tab. It holds a single URL for a few seconds and is then cleared. No image data and no history is stored |
+| `storage` | Passes the address of a right-clicked image to the editor tab. The pending URL is removed when consumed by the editor. No image bytes or list of visited pages is stored |
 | `<all_urls>` *(optional)* | Lets the editor fetch an image you explicitly right-clicked |
 
 `<all_urls>` is **optional** and is **not** granted when you install PixFold. A fresh install has no access to any website. Chrome asks for it only if you use the right-click entry, and you can decline and keep using drag-and-drop, paste and the file picker. If you grant it, it is used for exactly one thing: fetching the single image you right-clicked. PixFold never reads page content, never injects scripts into pages, and never runs in the background on any site.
